@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "covid-19_bot/covid-19-tcjvsk-b2147e1267fb.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "covid-19-tcjvsk-b2147e1267fb.json"
 
 import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
